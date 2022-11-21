@@ -379,8 +379,12 @@
         padding: 10px 0;
         border-radius: var(--radius-secondary);
         background-color: var(--background-secondary);
+        transition: .2s ease;
         &:hover {
             height: 100px;
+            .flex-2S1XBF {
+                display: grid;
+            }
         }
         &:last-child {
             .withTagAsButton-OsgQ9L,
@@ -401,9 +405,6 @@
             grid-column: 1 / -1;
             grid-gap: 5px;
             grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
-            &:hover {
-                display: grid;
-            }
         }
         
         .directionRow-2Iu2A9 .button-12Fmur {
