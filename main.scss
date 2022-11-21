@@ -1,0 +1,38 @@
+//? Base
+@use 'src/base/fonts';
+@use 'src/base/info';
+@use 'src/base/input';
+@use 'src/base/skin';
+@use 'src/base/tooltips';
+@use 'src/base/variables';
+@use 'src/base/others' as base-others;
+
+//? Components
+@use 'src/components/channel-list';
+@use 'src/components/chat';
+@use 'src/components/member-list';
+@use 'src/components/server-list';
+@use 'src/components/others' as components-others;
+
+//? Modals
+@use 'src/modals/calendar';
+@use 'src/modals/invite';
+@use 'src/modals/user-profile';
+@use 'src/modals/others' as modals-others;
+
+//? Pages
+@use 'src/pages/forums';
+@use 'src/pages/friends-list';
+@use 'src/pages/home';
+@use 'src/pages/settings';
+@use 'src/pages/voice-channel';
+
+//? Popouts
+@use 'src/popouts/attach-menu';
+@use 'src/popouts/inbox';
+@use 'src/popouts/pins';
+@use 'src/popouts/search';
+@use 'src/popouts/status-picker.scss';
+@use 'src/popouts/threads';
+@use 'src/popouts/user-popout';
+@use 'src/popouts/others' as popouts-others;
