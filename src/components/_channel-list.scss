@@ -439,6 +439,7 @@
     }
 }
 
+// powercord / replugged spotify modal
 .powercord-spotify {
     background-color: var(--background-secondary);
     margin-bottom: 5px;
@@ -456,5 +457,63 @@
     .spotify-seek-bar-progress {
       background: var(--spotify-color);
       border-radius: 50px;
+    }
+}
+
+// Vencord spotify modal
+#vc-spotify-player {
+    background-color: var(--background-secondary);
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    border-radius: var(--radius-secondary);
+    border-bottom: 0;
+    transition: .2s ease;
+
+
+    .bar-1Bhnl9 {
+        background: var(--background-primary);
+    }
+    .barFill-2Bh7CX {
+        background: var(--spotify-color);
+    }
+
+    .vc-spotify-button-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 5px;
+        transition: .2s ease;
+        height: 0;
+
+    }
+    &:hover .vc-spotify-button-row {
+        height: auto;
+    }
+    &:hover .vc-spotify-button {
+        opacity: 1;
+    }
+    .vc-spotify-shuffle-on, .vc-spotify-shuffle-off {
+        display: none;
+    }
+    .vc-spotify-repeat-on, .vc-spotify-repeat-off {
+        display: none;
+    }
+    .vc-spotify-button {
+        background-color: var(--background-secondary-alt);
+        border-radius: var(--radius-secondary);
+        width: 100%;
+        height: 38px;
+        transition: .2s ease;
+        margin: 3px;
+        opacity: 1;
+
+        &:hover {
+            background-color: var(--background-primary);
+            color: var(--interactive-active) !important;
+            border-radius: var(--radius-secondary);
+        }
+    }
+    #vc-spotify-album-image {
+        border-radius: 50%;
     }
 }
