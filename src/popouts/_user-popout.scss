@@ -92,6 +92,15 @@
     }
   }
   
+  .note-Go5ZP2, .note-3M15gE {
+    background: var(--background-primary);
+    padding: 10px;
+    margin: 3px;
+    margin-top: 20px;
+    border-radius: var(--radius-secondary);
+  }
+
+
   .userPopout-2j1gM4 {
     .nickname-t08Mck {
       font-weight: bold;
@@ -147,13 +156,6 @@
       margin-top: 28px;
     }
   
-    .note-Go5ZP2 {
-      background: var(--background-primary);
-      padding: 10px;
-      margin: 3px;
-      border-radius: var(--radius-secondary);
-    }
-
     .inputWrapper-1YNMmM {
       margin-top: 20px;
       .input-2z42oC {
@@ -332,4 +334,9 @@
     .platformIcon-k3yytQ {
       display: none;
     }
+}
+
+// border radius for connections
+.connectedAccountContainer-3aLMHJ {
+    border-radius: var(--radius-secondary) !important;
 }
