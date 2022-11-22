@@ -51,17 +51,39 @@
         }
     }
     // guild profile
-    .headerTop-212g15 {
+    .header-3anOjb {
         position: fixed;
         right: 0;
         left: unset;
         border-radius: var(--radius-secondary);
-
-        .guildDetail-3EJhW_ {
-            margin-top: 15px;       
-         }
     }
-    
+
+    .guildDetail-3EJhW_ {
+         margin-top: 15px;
+         margin-left: 10px;    
+    }
+
+    .headerTop-212g15 {
+        margin-top: 55px;
+        .badgeList-2pMvZX.container-5SvbtF {
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            left: 0;
+            right: 0;
+            display: flex;
+        
+        }
+    }
+
+    .header-1_vWwx {
+        .avatar-1YsFQ1.wrapper-1VLyxH {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            border: 8px solid var(--background-floating);
+        }
+    }
     .headerTop-1PNKck {
         .badgeList-2aoHPw.container-1gYwHN {
             position: fixed;
