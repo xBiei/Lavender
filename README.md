@@ -24,4 +24,4 @@ Or compile it yourself after you make your changes using any sass compiler.
 
 ---
 
-- **Main Theme:** [Obscure's](https://github.com/Lavender-Discord/Lavender)
+**Main Theme:** [Obscure's](https://github.com/Lavender-Discord/Lavender)
