@@ -10,7 +10,7 @@
 import `main.css`
 
 ```css
-@import url("https://raw.githubusercontent.com/xBiei/Lavender/master/main.css")
+@import"https://cdn.jsdelivr.net/gh/xBiei/Lavender/main.css";
 ``` 
 
 Or compile it yourself after you make your changes using any sass compiler.
