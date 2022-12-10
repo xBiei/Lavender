@@ -135,12 +135,12 @@
     overflow-y: scroll !important;
 
     &::-webkit-scrollbar {
-      width: 0.35em !important;
+      width: 0.45em !important;
     }
 
     &:hover {
       &::-webkit-scrollbar {
-        width: 0.35em !important;
+        width: 0.45em !important;
       }
 
       &::-webkit-scrollbar-thumb {
