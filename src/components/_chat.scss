@@ -232,33 +232,6 @@
     transition: 125ms linear;
     div, span, img{transition: 125ms linear;}
 
-    &:not(.mentioned-Tre-dv), &.message-2CShn3.selected-2LX7Jy {
-      &:before {
-        content: ' ';
-        background-color: var(--accent-primary);
-        position: absolute;
-        left: -10px;
-        opacity: 0;
-        height: 70%;
-        top: 15%;
-        bottom: 0;
-        width: 2px;
-        border-radius: var(--radius-tertiary);
-        transition: 125ms linear;
-      }
-
-      &:hover, &.message-2CShn3.selected-2LX7Jy, &.replying-eZ7p5z {
-        background-color: var(--background-message-hover);
-        &:before {
-          left: 10px;
-          opacity: 1;
-        }
-
-        .contents-2MsGLg,[id*="message-accessories"]{margin-left: 10px;}
-        .contents-2MsGLg .avatar-2e8lTP{margin-left: 10px;}
-        .latin24CompactTimeStamp-2pXUBq.timestamp-p1Df1m.timestampVisibleOnHover-9PEuZS {margin-left: 10px;}
-      }
-    }
 
     &.replying-eZ7p5z{background-color: var(--brand-experiment-05a) !important;}
 
