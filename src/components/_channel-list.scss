@@ -466,7 +466,7 @@
     margin-bottom: 5px;
     padding-bottom: 10px;
     border-radius: var(--radius-secondary);
-    border-bottom: 0;
+    border-bottom: 0 !important;
     transition: .2s ease;
 
 
@@ -487,7 +487,7 @@
 
     }
     &:hover .vc-spotify-button-row {
-        height: auto;
+        height: 42px !important;
     }
     &:hover .vc-spotify-button {
         opacity: 1;
